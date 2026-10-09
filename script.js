@@ -59,7 +59,7 @@
  function bolitas(x) {
                 var visual = "";
                 for (let i = 0; i < x; i++) {
-                    visual += " <i class="bi bi-diamond-fill"></i> ";
+                    visual += "♦";
                 }
                 return "<span>" + visual + "</span>";
             }
