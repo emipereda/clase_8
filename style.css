@@ -5,8 +5,8 @@
                 --color-text-dark: rgb(30, 30, 30);
                 --color-text-light: rgba(90, 90, 90, 1);
                 --color-border: silver;
-                --font-sans: "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
-                --font-serif: "Newsreader", Georgia, "Times New Roman", serif;
+                --font-sans: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                --font-serif: "PT Serif", Georgia, "Times New Roman", serif;
             }
 
             *,
@@ -228,4 +228,16 @@
                 font-style: normal;
                 font-weight: 700;
                 color: var(--color-text-light);
+              /* Pictograma Bootstrap Icons "diamond-fill": 1 unidad = 1 institución */
+.pictograma {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.2rem;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23505050' viewBox='0 0 16 16'><path fill-rule='evenodd' d='M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.48 1.48 0 0 1 0-2.098z'/></svg>");
+}
             }
