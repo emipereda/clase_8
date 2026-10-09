@@ -56,10 +56,12 @@
                     console.error("Algo salió mal:", error);
                 });
 
-            function bolitas(x) {
-                var visual = "";
-                for (let i = 0; i < x; i++) {
-                    visual += " ● ";
-                }
+         function bolitas(x) {
+    var visual = "";
+    for (let i = 0; i < x; i++) {
+        visual += '<span class="pictograma" title="1 institución"></span>';
+    }
+    return visual;
+}
                 return "<span>" + visual + "</span>";
             }
